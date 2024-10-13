@@ -1,7 +1,7 @@
 # ReZG
 
 ##  CN classier 
-This repository contains the training code and weights for the Counter-Narrative (CN) classifier, which is used to determine the effectiveness of counter-narratives against hate speech. 
+This repository contains the training code and weights for the Counter-Narrative (CN) classifier used in Paper , which is used to determine the effectiveness of counter-narratives against hate speech. 
 Our model achieved an accuracy of 92.8% in classifying counter-narratives.
 We provide the training code of it in the file ```Finetune Reberta for CN detection.pynb``` and the weight of finetuned model can be obtained through:
 The training data is formalized as follows:
