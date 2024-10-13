@@ -1,7 +1,10 @@
 # ReZG
 
-## Finetune Roberta for CN detection
-The code for finetuning Roberta for CN detection is in file ```Finetune Reberta for CN detection.pynb```. The training dataset is stored in a ``hs_cn_dataset.csv``, and each row represents an instance with the following columns:
+##  CN classier 
+This repository contains the training code and weights for the Counter-Narrative (CN) classifier, which is used to determine the effectiveness of counter-narratives against hate speech. 
+Our model achieved an accuracy of 92.8% in classifying counter-narratives.
+We provide the training code of it in the file ```Finetune Reberta for CN detection.pynb``` and the weight of finetuned model can be obtained through:
+The training data is formalized as follows:
 
 
 | index | target    | hs                                      | cn                                         | label |
