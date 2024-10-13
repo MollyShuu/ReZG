@@ -2,7 +2,9 @@
 
 ##  CN classifier 
 This repository contains the training code and weights for the Counter-Narrative (CN) classifier used in Paper ```"ReZG: Retrieval-Augmented Zero-Shot Counter Narrative Generation for Hate Speech"```, which is used to determine the effectiveness of counter-narratives against hate speech. 
-We provide the training code of it in the file ```Finetune Reberta for CN detection.pynb``` and the weight of finetuned model can be obtained through:
+
+- **The training code** of it in the file ```Finetune Reberta for CN detection.pynb```
+- **The weight of finetuned model-CNClassifier-ReZG.pt** can be obtained through:
 
 The training data is formalized as follows:
 
@@ -22,8 +24,7 @@ The training data is formalized as follows:
 
 
 
-The training dataset comes from the following studies:
-
+The training dataset comes from the following studies and we would like to express our sincere thanks to them:
 - [1] Chung, Yi-Ling, et al. "CONAN-COunter NArratives through Nichesourcing: a Multilingual Dataset of Responses to Fight Online Hate Speech." Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics. 2019.
 - [2] Fanton, Margherita, et al. "Human-in-the-Loop for Data Collection: a Multi-Target Counter Narrative Dataset to Fight Online Hate Speech." Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers). 2021.
 - [3] Chung, Yi-Ling, Serra Sinem Tekiroğlu, and Marco Guerini. "Towards Knowledge-Grounded Counter Narrative Generation for Hate Speech." Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021. 2021.
