@@ -10,7 +10,7 @@ The training data is formalized as follows:
 | index | target    | hs                                      | cn                                         | label |
 |-------|-----------|-----------------------------------------|--------------------------------------------|-------|
 | 1     | DISABLED | Folks with down syndrome are inferior.  | People with Down Syndrome are not inferior to anyone else.  Our genetic condition isn't something to be ashamed of, maybe we should be less judgemental about others. | 1     |
-| 2     | DISABLED      | Folks with down syndrome are inferior. | All religions have value and are welcome to our country. | 0  |
+| 2     | DISABLED      | Folks with down syndrome are inferior. | Folks with down syndrome are inferior. | 0  |
 
 
 - `index`: A unique identifier for each instance.
