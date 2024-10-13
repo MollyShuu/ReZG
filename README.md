@@ -18,8 +18,8 @@ The training data is formalized as follows:
 - `hs`: The content of the hate speech (HS).
 - `cn`: The text provided to challenge the hate speech.
 - `label`: A binary label indicating whether the `cn` is a valid counter-narrative for the corresponding `hs`:
-  - `1`: The `cn` is an effective counter-narrative for the `hs`.
-  - `0`: The `cn` is not an effective counter-narrative for the `hs`.
+  - `1`: The `cn` is a valid counter-narrative for the `hs`.
+  - `0`: The `cn` is not a valid counter-narrative for the `hs`.
 
 
 
