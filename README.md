@@ -1,6 +1,6 @@
 #   Counter-Narrative (CN) classifier in ReZG
 
-This repository contains the training code and weights for the Counter-Narrative (CN) classifier used in Paper ```"ReZG: Retrieval-Augmented Zero-Shot Counter Narrative Generation for Hate Speech"```, which is used to determine the effectiveness of counter-narratives against hate speech. 
+This repository contains the training code for the Counter-Narrative (CN) classifier used in Paper ```"ReZG: Retrieval-Augmented Zero-Shot Counter Narrative Generation for Hate Speech"```, which is used to determine the effectiveness of counter-narratives against hate speech. 
 
 - **The training code** of it is in the file ```Finetune Roberta for CN detection.pynb```
 
